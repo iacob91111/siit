@@ -1,0 +1,929 @@
+09.06.2018 10.22 - "changed changes"
+	- modified - index.html linia 5
+09.06.2018 10.20 - "init"
+	- modified - index.html linia 4
+09.06.2018 10.18 - "first commit"
+	- modified - index.html linia 3
+
+
+c:\siit>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   9Iun18/index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+c:\siit>git add -A
+
+c:\siit>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   9Iun18/index.html
+
+
+c:\siit>git commit -m "added new h2"
+[master 0e18196] added new h2
+ 1 file changed, 8 insertions(+)
+
+c:\siit>git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+c:\siit>git push
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 428 bytes | 428.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/iacob91111/siit.git
+   17dfc7c..0e18196  master -> master
+
+c:\siit>gitlog
+'gitlog' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\siit>git log
+commit 0e18196e799092dc83dc97ea1f2d58b10d5c18eb (HEAD -> master, origin/master, origin/HEAD)
+Author: iacob@1191 <ionut.iacob@gmail.com>
+Date:   Sat Jun 9 10:28:25 2018 +0300
+
+    added new h2
+
+commit 17dfc7c59b120848030cfbc20f5f8890278b780d
+Merge: bfbe5ed c77b963
+Author: iacob@1191 <ionut.iacob@gmail.com>
+Date:   Sat Jun 9 09:51:50 2018 +0300
+commit 0e18196e799092dc83dc97ea1f2d58b10d5c18eb (HEAD -> master, origin/master, origin/HEAD)
+Author: iacob@1191 <ionut.iacob@gmail.com>
+Date:   Sat Jun 9 10:28:25 2018 +0300
+
+
+    Creare Pagina de Index
+
+commit bfbe5ed17fa71545ecf885b8c152c24b8f4413b8
+Author: iacob@1191 <ionut.iacob@gmail.com>
+Date:   Sat Jun 9 09:39:25 2018 +0300
+
+    a
+
+commit c77b96369effdb3c092a3b94a3470a5044312cd3
+Author: iacob91111 <39429036+iacob91111@users.noreply.github.com>
+Date:   Sat Jun 9 00:30:15 2018 +0300
+
+    Add files via upload
+
+commit 16ad24057e8e9c58f496dbcc3870ff28fe29c886
+Author: iacob@1191 <ionut.iacob@gmail.com>
+Date:   Tue May 29 22:23:58 2018 +0300
+
+    vfinal
+
+commit 7c8cd6eb3d4c185160264eaa71ca2be81c7996d4
+Author: iacob@1191 <ionut.iacob@gmail.com>
+Date:   Sat May 26 20:31:01 2018 +0300
+
+    Final
+
+commit 6ad02009aba900fe5c83c075b1cfe9a76b9b42c9
+Author: iacob@1191 <ionut.iacob@gmail.com>
+Date:   Sat May 26 20:03:45 2018 +0300
+
+    Final
+
+commit 6b05446e89d3ddfe9a8d1e41fd73c908dad4856f
+Author: iacob@1191 <ionut.iacob@gmail.com>
+Date:   Thu May 24 19:57:54 2018 +0300
+
+
+
+commit 6b05446e89d3ddfe9a8d1e41fd73c908dad4856f
+Author: iacob@1191 <ionut.iacob@gmail.com>
+Date:   Thu May 24 19:57:54 2018 +0300
+
+    fisier js
+
+commit 668f179e6dafe685b9f21347399739b9d0797ae7
+Author: iacob@1191 <ionut.iacob@gmail.com>
+Date:   Sat May 19 11:51:19 2018 +0300
+
+    fisier js
+
+commit d8b514ad9a9cd9ba473c837bcf929a09182f9c8c
+Author: iacob@1191 <ionut.iacob@gmail.com>
+Date:   Sat May 19 11:22:24 2018 +0300
+
+    mesaj2
+
+commit 91f0e87bbdf4c7e6084113f9eff9d88ef278fba9
+Author: iacob@1191 <ionut.iacob@gmail.com>
+Date:   Sat May 19 11:16:13 2018 +0300
+
+    am mutat style in fisier separat
+
+commit 0f2c7a435566b9f4ae4970bf7a4984379891edfe
+Author: iacob@1191 <ionut.iacob@gmail.com>
+Date:   Sat May 19 11:02:13 2018 +0300
+
+    colored hello
+
+commit 2fdf4296169b181e8519607399c7b0e38e03c7c0
+Author: iacob@1191 <ionut.iacob@gmail.com>
+Date:   Sat May 19 10:50:30 2018 +0300
+
+    first commit with html page
+
+commit 17161cb00a99856414c6e41f0a27e1fa5775e44b
+Author: iacob91111 <39429036+iacob91111@users.noreply.github.com>
+Date:   Sat May 19 10:37:17 2018 +0300
+
+    Initial commit
+
+    Final
+
+commit 6b05446e89d3ddfe9a8d1e41fd73c908dad4856f
+Author: iacob@1191 <ionut.iacob@gmail.com>
+Date:   Thu May 24 19:57:54 2018 +0300
+
+    fisier js
+
+commit 668f179e6dafe685b9f21347399739b9d0797ae7
+Author: iacob@1191 <ionut.iacob@gmail.com>
+Date:   Sat May 19 11:51:19 2018 +0300
+
+    fisier js
+
+commit d8b514ad9a9cd9ba473c837bcf929a09182f9c8c
+Author: iacob@1191 <ionut.iacob@gmail.com>
+Date:   Sat May 19 11:22:24 2018 +0300
+
+    mesaj2
+
+commit 91f0e87bbdf4c7e6084113f9eff9d88ef278fba9
+Author: iacob@1191 <ionut.iacob@gmail.com>
+Date:   Sat May 19 11:16:13 2018 +0300
+
+    am mutat style in fisier separat
+
+commit 0f2c7a435566b9f4ae4970bf7a4984379891edfe
+Author: iacob@1191 <ionut.iacob@gmail.com>
+Date:   Sat May 19 11:02:13 2018 +0300
+
+    colored hello
+
+commit 2fdf4296169b181e8519607399c7b0e38e03c7c0
+Author: iacob@1191 <ionut.iacob@gmail.com>
+Date:   Sat May 19 10:50:30 2018 +0300
+
+    first commit with html page
+
+commit 17161cb00a99856414c6e41f0a27e1fa5775e44b
+Author: iacob91111 <39429036+iacob91111@users.noreply.github.com>
+Date:   Sat May 19 10:37:17 2018 +0300
+
+    Initial commit
+(END)
+
+Microsoft Windows [Version 10.0.17134.81]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\iacob>cd c:\siit
+
+c:\siit>git log --preety=oneline
+fatal: unrecognized argument: --preety=oneline
+
+c:\siit>git log -preety=oneline
+fatal: unrecognized argument: -preety=oneline
+
+c:\siit>git log --pretty=oneline
+0e18196e799092dc83dc97ea1f2d58b10d5c18eb (HEAD -> master, origin/master, origin/HEAD) added new h2
+17dfc7c59b120848030cfbc20f5f8890278b780d Creare Pagina de Index
+bfbe5ed17fa71545ecf885b8c152c24b8f4413b8 a
+c77b96369effdb3c092a3b94a3470a5044312cd3 Add files via upload
+16ad24057e8e9c58f496dbcc3870ff28fe29c886 vfinal
+7c8cd6eb3d4c185160264eaa71ca2be81c7996d4 Final
+6ad02009aba900fe5c83c075b1cfe9a76b9b42c9 Final
+6b05446e89d3ddfe9a8d1e41fd73c908dad4856f fisier js
+668f179e6dafe685b9f21347399739b9d0797ae7 fisier js
+d8b514ad9a9cd9ba473c837bcf929a09182f9c8c mesaj2
+91f0e87bbdf4c7e6084113f9eff9d88ef278fba9 am mutat style in fisier separat
+0f2c7a435566b9f4ae4970bf7a4984379891edfe colored hello
+2fdf4296169b181e8519607399c7b0e38e03c7c0 first commit with html page
+17161cb00a99856414c6e41f0a27e1fa5775e44b Initial commit
+
+c:\siit>
+
+__________________________
+
+Microsoft Windows [Version 10.0.17134.81]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\iacob>cd c:\siit
+
+c:\siit>git log --preety=oneline
+fatal: unrecognized argument: --preety=oneline
+
+c:\siit>git log -preety=oneline
+fatal: unrecognized argument: -preety=oneline
+
+c:\siit>git log --pretty=oneline
+0e18196e799092dc83dc97ea1f2d58b10d5c18eb (HEAD -> master, origin/master, origin/HEAD) added new h2
+17dfc7c59b120848030cfbc20f5f8890278b780d Creare Pagina de Index
+bfbe5ed17fa71545ecf885b8c152c24b8f4413b8 a
+c77b96369effdb3c092a3b94a3470a5044312cd3 Add files via upload
+16ad24057e8e9c58f496dbcc3870ff28fe29c886 vfinal
+7c8cd6eb3d4c185160264eaa71ca2be81c7996d4 Final
+6ad02009aba900fe5c83c075b1cfe9a76b9b42c9 Final
+6b05446e89d3ddfe9a8d1e41fd73c908dad4856f fisier js
+668f179e6dafe685b9f21347399739b9d0797ae7 fisier js
+d8b514ad9a9cd9ba473c837bcf929a09182f9c8c mesaj2
+91f0e87bbdf4c7e6084113f9eff9d88ef278fba9 am mutat style in fisier separat
+0f2c7a435566b9f4ae4970bf7a4984379891edfe colored hello
+2fdf4296169b181e8519607399c7b0e38e03c7c0 first commit with html page
+17161cb00a99856414c6e41f0a27e1fa5775e44b Initial commit
+
+c:\siit>git log --preety=oneline
+fatal: unrecognized argument: --preety=oneline
+
+c:\siit>git log --pretty=oneline
+0e18196e799092dc83dc97ea1f2d58b10d5c18eb (HEAD -> master, origin/master, origin/HEAD) added new h2
+17dfc7c59b120848030cfbc20f5f8890278b780d Creare Pagina de Index
+bfbe5ed17fa71545ecf885b8c152c24b8f4413b8 a
+c77b96369effdb3c092a3b94a3470a5044312cd3 Add files via upload
+16ad24057e8e9c58f496dbcc3870ff28fe29c886 vfinal
+7c8cd6eb3d4c185160264eaa71ca2be81c7996d4 Final
+6ad02009aba900fe5c83c075b1cfe9a76b9b42c9 Final
+6b05446e89d3ddfe9a8d1e41fd73c908dad4856f fisier js
+668f179e6dafe685b9f21347399739b9d0797ae7 fisier js
+d8b514ad9a9cd9ba473c837bcf929a09182f9c8c mesaj2
+91f0e87bbdf4c7e6084113f9eff9d88ef278fba9 am mutat style in fisier separat
+0f2c7a435566b9f4ae4970bf7a4984379891edfe colored hello
+2fdf4296169b181e8519607399c7b0e38e03c7c0 first commit with html page
+17161cb00a99856414c6e41f0a27e1fa5775e44b Initial commit
+
+c:\siit>cd c
+The system cannot find the path specified.
+
+c:\siit>cd c:\
+
+c:\>git clone https://github.com/alin-miu-scoalainformala/siit-grupa3.git
+Cloning into 'siit-grupa3'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+c:\>git status\
+git: 'status\' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+c:\>git status
+fatal: not a git repository (or any of the parent directories): .git
+
+c:\>cd..
+
+c:\>cd siit-grupa3
+
+c:\siit-grupa3>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        Iacob/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+c:\siit-grupa3>git add -A
+
+c:\siit-grupa3>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   Iacob/iacob.html
+
+
+c:\siit-grupa3>git commit -m "grup"
+[master 4957f3c] grup
+ 1 file changed, 7 insertions(+)
+ create mode 100644 Iacob/iacob.html
+
+c:\siit-grupa3>git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+c:\siit-grupa3>git push
+To https://github.com/alin-miu-scoalainformala/siit-grupa3.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/alin-miu-scoalainformala/siit-grupa3.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+c:\siit-grupa3>git pull
+Merge made by the 'recursive' strategy.
+ alin.html | 7 +++++++
+ 1 file changed, 7 insertions(+)
+ create mode 100644 alin.html
+
+c:\siit-grupa3>git push
+To https://github.com/alin-miu-scoalainformala/siit-grupa3.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/alin-miu-scoalainformala/siit-grupa3.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+c:\siit-grupa3>git pull
+remote: Counting objects: 6, done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 6 (delta 0), reused 6 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), done.
+From https://github.com/alin-miu-scoalainformala/siit-grupa3
+   b5c85fb..d37390b  master     -> origin/master
+Merge made by the 'recursive' strategy.
+ peptea/peptea.html | 14 ++++++++++++++
+ 1 file changed, 14 insertions(+)
+ create mode 100644 peptea/peptea.html
+
+c:\siit-grupa3>git push
+Counting objects: 8, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (8/8), 927 bytes | 309.00 KiB/s, done.
+Total 8 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/alin-miu-scoalainformala/siit-grupa3.git
+   d37390b..246de73  master -> master
+
+c:\siit-grupa3>git status
+On branch master
+Your branch is behind 'origin/master' by 20 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+nothing to commit, working tree clean
+
+c:\siit-grupa3>git status
+On branch master
+Your branch is behind 'origin/master' by 20 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   Iacob/iacob.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+c:\siit-grupa3>git add -A
+
+c:\siit-grupa3>git commit -m "br"
+[master a023d7c] br
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+c:\siit-grupa3>git status
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 1 and 20 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+nothing to commit, working tree clean
+
+c:\siit-grupa3>git fetch
+From https://github.com/alin-miu-scoalainformala/siit-grupa3
+ * [new branch]      Georgia    -> origin/Georgia
+ * [new branch]      Iacob      -> origin/Iacob
+ * [new branch]      Leo        -> origin/Leo
+ * [new branch]      alin       -> origin/alin
+ * [new branch]      amelia     -> origin/amelia
+ * [new branch]      diana      -> origin/diana
+ * [new branch]      dragos     -> origin/dragos
+ * [new branch]      vlad       -> origin/vlad
+
+c:\siit-grupa3>git branch
+* master
+
+c:\siit-grupa3>git checkout -b origin/Iacob
+Switched to a new branch 'origin/Iacob'
+
+c:\siit-grupa3>git checkout -b Iacob origin/Iacob
+warning: refname 'origin/Iacob' is ambiguous.
+warning: refname 'origin/Iacob' is ambiguous.
+fatal: Ambiguous object name: 'origin/Iacob'.
+
+c:\siit-grupa3>git checkout -b Iacob origin/Iacob
+warning: refname 'origin/Iacob' is ambiguous.
+warning: refname 'origin/Iacob' is ambiguous.
+fatal: Ambiguous object name: 'origin/Iacob'.
+
+c:\siit-grupa3>git branch
+  master
+* origin/Iacob
+
+c:\siit-grupa3>git checkout master
+Switched to branch 'master'
+Your branch and 'origin/master' have diverged,
+and have 1 and 20 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+c:\siit-grupa3>git branch
+* master
+  origin/Iacob
+
+c:\siit-grupa3>git branch -d origin/Iacob
+Deleted branch origin/Iacob (was a023d7c).
+
+c:\siit-grupa3>git branch
+* master
+
+c:\siit-grupa3>git checkout -b Iacob origin/Iacob
+Switched to a new branch 'Iacob'
+Branch 'Iacob' set up to track remote branch 'Iacob' from 'origin'.
+
+c:\siit-grupa3>
+
+________________________________________
+Microsoft Windows [Version 10.0.17134.81]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\iacob>cd c:\siit
+
+c:\siit>git log --preety=oneline
+fatal: unrecognized argument: --preety=oneline
+
+c:\siit>git log -preety=oneline
+fatal: unrecognized argument: -preety=oneline
+
+c:\siit>git log --pretty=oneline
+0e18196e799092dc83dc97ea1f2d58b10d5c18eb (HEAD -> master, origin/master, origin/HEAD) added new h2
+17dfc7c59b120848030cfbc20f5f8890278b780d Creare Pagina de Index
+bfbe5ed17fa71545ecf885b8c152c24b8f4413b8 a
+c77b96369effdb3c092a3b94a3470a5044312cd3 Add files via upload
+16ad24057e8e9c58f496dbcc3870ff28fe29c886 vfinal
+7c8cd6eb3d4c185160264eaa71ca2be81c7996d4 Final
+6ad02009aba900fe5c83c075b1cfe9a76b9b42c9 Final
+6b05446e89d3ddfe9a8d1e41fd73c908dad4856f fisier js
+668f179e6dafe685b9f21347399739b9d0797ae7 fisier js
+d8b514ad9a9cd9ba473c837bcf929a09182f9c8c mesaj2
+91f0e87bbdf4c7e6084113f9eff9d88ef278fba9 am mutat style in fisier separat
+0f2c7a435566b9f4ae4970bf7a4984379891edfe colored hello
+2fdf4296169b181e8519607399c7b0e38e03c7c0 first commit with html page
+17161cb00a99856414c6e41f0a27e1fa5775e44b Initial commit
+
+c:\siit>git log --preety=oneline
+fatal: unrecognized argument: --preety=oneline
+
+c:\siit>git log --pretty=oneline
+0e18196e799092dc83dc97ea1f2d58b10d5c18eb (HEAD -> master, origin/master, origin/HEAD) added new h2
+17dfc7c59b120848030cfbc20f5f8890278b780d Creare Pagina de Index
+bfbe5ed17fa71545ecf885b8c152c24b8f4413b8 a
+c77b96369effdb3c092a3b94a3470a5044312cd3 Add files via upload
+16ad24057e8e9c58f496dbcc3870ff28fe29c886 vfinal
+7c8cd6eb3d4c185160264eaa71ca2be81c7996d4 Final
+6ad02009aba900fe5c83c075b1cfe9a76b9b42c9 Final
+6b05446e89d3ddfe9a8d1e41fd73c908dad4856f fisier js
+668f179e6dafe685b9f21347399739b9d0797ae7 fisier js
+d8b514ad9a9cd9ba473c837bcf929a09182f9c8c mesaj2
+91f0e87bbdf4c7e6084113f9eff9d88ef278fba9 am mutat style in fisier separat
+0f2c7a435566b9f4ae4970bf7a4984379891edfe colored hello
+2fdf4296169b181e8519607399c7b0e38e03c7c0 first commit with html page
+17161cb00a99856414c6e41f0a27e1fa5775e44b Initial commit
+
+c:\siit>cd c
+The system cannot find the path specified.
+
+c:\siit>cd c:\
+
+c:\>git clone https://github.com/alin-miu-scoalainformala/siit-grupa3.git
+Cloning into 'siit-grupa3'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+c:\>git status\
+git: 'status\' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+c:\>git status
+fatal: not a git repository (or any of the parent directories): .git
+
+c:\>cd..
+
+c:\>cd siit-grupa3
+
+c:\siit-grupa3>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        Iacob/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+c:\siit-grupa3>git add -A
+
+c:\siit-grupa3>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   Iacob/iacob.html
+
+
+c:\siit-grupa3>git commit -m "grup"
+[master 4957f3c] grup
+ 1 file changed, 7 insertions(+)
+ create mode 100644 Iacob/iacob.html
+
+c:\siit-grupa3>git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+c:\siit-grupa3>git push
+To https://github.com/alin-miu-scoalainformala/siit-grupa3.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/alin-miu-scoalainformala/siit-grupa3.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+c:\siit-grupa3>git pull
+Merge made by the 'recursive' strategy.
+ alin.html | 7 +++++++
+ 1 file changed, 7 insertions(+)
+ create mode 100644 alin.html
+
+c:\siit-grupa3>git push
+To https://github.com/alin-miu-scoalainformala/siit-grupa3.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/alin-miu-scoalainformala/siit-grupa3.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+c:\siit-grupa3>git pull
+remote: Counting objects: 6, done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 6 (delta 0), reused 6 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), done.
+From https://github.com/alin-miu-scoalainformala/siit-grupa3
+   b5c85fb..d37390b  master     -> origin/master
+Merge made by the 'recursive' strategy.
+ peptea/peptea.html | 14 ++++++++++++++
+ 1 file changed, 14 insertions(+)
+ create mode 100644 peptea/peptea.html
+
+c:\siit-grupa3>git push
+Counting objects: 8, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (8/8), 927 bytes | 309.00 KiB/s, done.
+Total 8 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/alin-miu-scoalainformala/siit-grupa3.git
+   d37390b..246de73  master -> master
+
+c:\siit-grupa3>git status
+On branch master
+Your branch is behind 'origin/master' by 20 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+nothing to commit, working tree clean
+
+c:\siit-grupa3>git status
+On branch master
+Your branch is behind 'origin/master' by 20 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   Iacob/iacob.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+c:\siit-grupa3>git add -A
+
+c:\siit-grupa3>git commit -m "br"
+[master a023d7c] br
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+c:\siit-grupa3>git status
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 1 and 20 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+nothing to commit, working tree clean
+
+c:\siit-grupa3>git fetch
+From https://github.com/alin-miu-scoalainformala/siit-grupa3
+ * [new branch]      Georgia    -> origin/Georgia
+ * [new branch]      Iacob      -> origin/Iacob
+ * [new branch]      Leo        -> origin/Leo
+ * [new branch]      alin       -> origin/alin
+ * [new branch]      amelia     -> origin/amelia
+ * [new branch]      diana      -> origin/diana
+ * [new branch]      dragos     -> origin/dragos
+ * [new branch]      vlad       -> origin/vlad
+
+c:\siit-grupa3>git branch
+* master
+
+c:\siit-grupa3>git checkout -b origin/Iacob
+Switched to a new branch 'origin/Iacob'
+
+c:\siit-grupa3>git checkout -b Iacob origin/Iacob
+warning: refname 'origin/Iacob' is ambiguous.
+warning: refname 'origin/Iacob' is ambiguous.
+fatal: Ambiguous object name: 'origin/Iacob'.
+
+c:\siit-grupa3>git checkout -b Iacob origin/Iacob
+warning: refname 'origin/Iacob' is ambiguous.
+warning: refname 'origin/Iacob' is ambiguous.
+fatal: Ambiguous object name: 'origin/Iacob'.
+
+c:\siit-grupa3>git branch
+  master
+* origin/Iacob
+
+c:\siit-grupa3>git checkout master
+Switched to branch 'master'
+Your branch and 'origin/master' have diverged,
+and have 1 and 20 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+c:\siit-grupa3>git branch
+* master
+  origin/Iacob
+
+c:\siit-grupa3>git branch -d origin/Iacob
+Deleted branch origin/Iacob (was a023d7c).
+
+c:\siit-grupa3>git branch
+* master
+
+c:\siit-grupa3>git checkout -b Iacob origin/Iacob
+Switched to a new branch 'Iacob'
+Branch 'Iacob' set up to track remote branch 'Iacob' from 'origin'.
+
+c:\siit-grupa3>git status
+On branch Iacob
+Your branch is up to date with 'origin/Iacob'.
+
+nothing to commit, working tree clean
+
+c:\siit-grupa3>git push origin Iacob
+Everything up-to-date
+
+c:\siit-grupa3>git push origin Iacob
+Everything up-to-date
+
+c:\siit-grupa3>git status
+On branch Iacob
+Your branch is up to date with 'origin/Iacob'.
+
+nothing to commit, working tree clean
+
+c:\siit-grupa3>git status
+On branch Iacob
+Your branch is up to date with 'origin/Iacob'.
+
+nothing to commit, working tree clean
+
+c:\siit-grupa3>git status
+On branch Iacob
+Your branch is up to date with 'origin/Iacob'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   Iacob/iacob.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+c:\siit-grupa3>git commit -m "modf"
+On branch Iacob
+Your branch is up to date with 'origin/Iacob'.
+
+Changes not staged for commit:
+        modified:   Iacob/iacob.html
+
+no changes added to commit
+
+c:\siit-grupa3>git add -A
+
+c:\siit-grupa3>git commit -m "modf"
+[Iacob 1ab927f] modf
+ 1 file changed, 1 insertion(+)
+
+c:\siit-grupa3>push
+'push' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\siit-grupa3>git push
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 375 bytes | 187.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/alin-miu-scoalainformala/siit-grupa3.git
+   39ab153..1ab927f  Iacob -> Iacob
+
+c:\siit-grupa3>
+
+________________________
+
+c:\siit-grupa3>git clean -df
+Removing Leo.html
+Removing Vlad.html
+Removing amelia.html
+Removing diana.html
+Removing dragos.html
+Removing georgia.html
+Removing index.html
+
+
+___________________________
+
+c:\siit-grupa3>git checkout -- .
+
+_____________________________
+
+c:\siit-grupa3>git reset HEAD~3
+Unstaged changes after reset:
+M       Iacob/iacob.html
+M       alin.html
+M       peptea/peptea.html
+
+___________________________
+
+c:\siit-grupa3>git branch
+  Iacob
+* master
+
+c:\siit-grupa3>git checkout Iacob
+Switched to branch 'Iacob'
+Your branch is up to date with 'origin/Iacob'.
+
+c:\siit-grupa3>git status
+On branch Iacob
+Your branch is up to date with 'origin/Iacob'.
+
+nothing to commit, working tree clean
+
+________________________________________
+
+
+c:\siit-grupa3>git status
+On branch Iacob
+Your branch is up to date with 'origin/Iacob'.
+
+nothing to commit, working tree clean
+
+c:\siit-grupa3>git pull origin master
+From https://github.com/alin-miu-scoalainformala/siit-grupa3
+ * branch            master     -> FETCH_HEAD
+Auto-merging index.html
+CONFLICT (content): Merge conflict in index.html
+Automatic merge failed; fix conflicts and then commit the result.
+
+c:\siit-grupa3>git status
+On branch Iacob
+Your branch is up to date with 'origin/Iacob'.
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Changes to be committed:
+
+        modified:   Leo.html
+        modified:   dragos.html
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+
+        both modified:   index.html
+
+
+c:\siit-grupa3>git add -A
+
+c:\siit-grupa3>git status
+On branch Iacob
+Your branch is up to date with 'origin/Iacob'.
+
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+
+        modified:   Leo.html
+        modified:   dragos.html
+        modified:   index.html
+
+
+c:\siit-grupa3>git commit
+[Iacob 05e4659] Merge branch 'master' of https://github.com/alin-miu-scoalainformala/siit-grupa3 into Iacob
+
+c:\siit-grupa3>git status
+On branch Iacob
+Your branch is ahead of 'origin/Iacob' by 31 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+c:\siit-grupa3>git pull
+Already up to date.
+
+c:\siit-grupa3>git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 454 bytes | 454.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/alin-miu-scoalainformala/siit-grupa3.git
+   fc60d07..05e4659  Iacob -> Iacob
+
+c:\siit-grupa3>
+
+________________________________________
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
